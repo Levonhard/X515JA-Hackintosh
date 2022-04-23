@@ -1,5 +1,6 @@
 # ASUS X515JA Hackintosh i5 10th gen
 <img src="https://github.com/Levonhard/X515JA-Hackintosh/blob/main/screenshot-monterey.png">
+
 ## ASUS X515JA-EJ1792W SPECS
 
 | COMPONENTS | MODEL                                 |
