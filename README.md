@@ -9,6 +9,7 @@
 | RAM        | 8 GiB@2667MHz DDR4                    |
 | iGPU       | Intel UHD Graphics 920                |
 | WiFi       | Intel Wireless-AC 9461                |
+| Storage    | NVME 256 GiB                          |
 
 ### WORK
 - [x] Intel integrated graphics
@@ -19,9 +20,9 @@
 - [x] TouchPad w/ Advanced Gestures
 - [x] Intel WiFi
 - [x] Speakers
-- [x] Headphone Jack Combo
+- [x] Headset Combo Jack
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
-- [x] Bluetooth
+- [x] Intel Bluetooth
 - [ ] HDMI
 
 ### NOT TESTED
