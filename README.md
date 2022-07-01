@@ -22,7 +22,7 @@
 - [x] Speakers
 - [x] Headset Combo Jack
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
-- [ ] Intel Bluetooth
+- [x] Intel Bluetooth
 - [ ] HDMI
 
 ### NOT TESTED
