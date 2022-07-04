@@ -23,6 +23,7 @@
 - [x] Headset Combo Jack
 - [x] Apple Services (iCloud, Apple Music, Apple TV, others..)
 - [x] Intel Bluetooth
+- [x] Sleep Mode
 - [ ] HDMI
 
 ### NOT TESTED
