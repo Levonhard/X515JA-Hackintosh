@@ -40,7 +40,3 @@
 
 ### POST-INSTALL SETUP
 - For headset combo jack to work you have to run the script provided here https://github.com/hackintosh-stuff/ComboJack, the necessary kext is already present on this EFI.
-
-### CREDITS
-- https://www.olarila.com/
-- MaLd0n (https://www.olarila.com/profile/2-mald0n/)
