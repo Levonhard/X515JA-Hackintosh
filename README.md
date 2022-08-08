@@ -11,7 +11,7 @@
 | WiFi       | Intel Wireless-AC 9461                |
 | Storage    | NVME 256 GiB                          |
 
-### WORK
+### WHAT WORKS
 - [x] Intel integrated graphics
 - [x] USB
 - [x] Webcam
