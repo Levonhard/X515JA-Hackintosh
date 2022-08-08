@@ -254,6 +254,8 @@
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAwA==</data>
+				<key>model</key>
+				<string>Intel(R) UHD Graphics G1</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
