@@ -7,7 +7,7 @@
 |------------|---------------------------------------|
 | CPU        | Intel Core i5 1035G1                  |
 | RAM        | 8 GiB@2667MHz DDR4                    |
-| iGPU       | Intel UHD Graphics 920                |
+| iGPU       | Intel(R) UHD Graphics G1              |
 | WiFi       | Intel Wireless-AC 9461                |
 | Storage    | NVME 256 GiB                          |
 
