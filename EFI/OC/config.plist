@@ -106,18 +106,6 @@
 				<data>RFNEVA==</data>
 			</dict>
 			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Find</key>
-				<data>X09TSQ==</data>
-				<key>Replace</key>
-				<data>WE9TSQ==</data>
-			</dict>
-			<dict>
 				<key>Base</key>
 				<string></string>
 				<key>BaseSkip</key>
@@ -146,6 +134,36 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data></data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string></string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X09TSQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WE9TSQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>AAAAAA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -366,24 +384,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>BrightnessKeys.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrightnessKeys</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -665,42 +665,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>CPUFriend.kext</string>
-				<key>Comment</key>
-				<string>CPUFriend.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CPUFriend</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>CPUFriendDataProvider.kext</string>
-				<key>Comment</key>
-				<string>CPUFriendDataProvider.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>USBMap.kext</string>
 				<key>Comment</key>
 				<string>USBMap.kext</string>
@@ -716,16 +680,70 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
+				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>NVMeFix.kext</string>
+				<string>IntelBTPatcher.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBTPatcher</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
+				<key>Comment</key>
+				<string>VoodooInput.kext</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NVMeFix</string>
+				<string>Contents/MacOS/VoodooInput</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>Arch</key>
 				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
+				<key>Comment</key>
+				<string>VoodooPS2Mouse.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Mouse</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
+				<key>Comment</key>
+				<string>VoodooPS2Trackpad.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooPS2Trackpad</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -923,6 +941,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -942,6 +962,8 @@
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
+				<false/>
+				<key>FullNvramAccess</key>
 				<false/>
 			</dict>
 			<dict>
@@ -963,6 +985,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -982,6 +1006,8 @@
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
+				<false/>
+				<key>FullNvramAccess</key>
 				<false/>
 			</dict>
 			<dict>
@@ -1003,6 +1029,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1022,6 +1050,8 @@
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
+				<false/>
+				<key>FullNvramAccess</key>
 				<false/>
 			</dict>
 			<dict>
@@ -1043,6 +1073,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1062,6 +1094,8 @@
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
+				<false/>
+				<key>FullNvramAccess</key>
 				<false/>
 			</dict>
 			<dict>
@@ -1083,6 +1117,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1102,6 +1138,8 @@
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
+				<false/>
+				<key>FullNvramAccess</key>
 				<false/>
 			</dict>
 			<dict>
@@ -1123,6 +1161,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1143,6 +1183,8 @@
 				<false/>
 				<key>TextMode</key>
 				<false/>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1162,6 +1204,8 @@
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
+				<false/>
+				<key>FullNvramAccess</key>
 				<false/>
 			</dict>
 		</array>
@@ -1219,8 +1263,6 @@
 				<string>SystemAudioVolume</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -1270,13 +1312,13 @@
 			<key>AdviseFeatures</key>
 			<true/>
 			<key>MLB</key>
-			<string>000000100QX000000</string>
+			<string></string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>AADfSwAA</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
@@ -1284,9 +1326,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>0000W0950000</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>00000000-0000-0000-0000-000007C40000</string>
+			<string></string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1412,6 +1454,12 @@
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
 			<integer>1</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 		</dict>
 		<key>Audio</key>
 		<dict>
@@ -1451,6 +1499,8 @@
 				<true/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
+				<key>LoadEarly</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1461,6 +1511,8 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
+				<key>LoadEarly</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1471,6 +1523,8 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+				<key>LoadEarly</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -1481,6 +1535,8 @@
 				<string></string>
 				<key>Comment</key>
 				<string>ResetNvramEntry.efi</string>
+				<key>LoadEarly</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -1491,6 +1547,8 @@
 				<string></string>
 				<key>Comment</key>
 				<string>AudioDxe.efi</string>
+				<key>LoadEarly</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Input</key>
